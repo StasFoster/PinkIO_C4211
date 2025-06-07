@@ -9,6 +9,7 @@ public class enemy : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+    
     void Start()
     {
         
@@ -20,4 +21,4 @@ public class enemy : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position,
             player.position, 0.01f);
     }
-}
+}  

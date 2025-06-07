@@ -16,7 +16,7 @@ public class Test : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        rb.AddForce(new Vector3(0, 200, 0));
+        //rb.AddForce(new Vector3(0, 200, 0));
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
